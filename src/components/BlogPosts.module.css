@@ -1,5 +1,5 @@
-.posts {
-  width: 40rem;
+ul {
+  width: 50%;
   margin: 2rem auto;
   padding: 1rem;
   list-style: none;
@@ -8,8 +8,15 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-.posts li {
+li {
   margin: 1rem;
   text-transform: capitalize;
   color: #292626;
+  padding: 1rem;
+  border: none;
+  border-radius: .2rem;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
+
+

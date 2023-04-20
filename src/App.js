@@ -1,5 +1,4 @@
 import BlogPosts from './components/BlogPosts';
-import NewPost from './components/NewPost';
 
 function App() {
   // Todo: Fetch blog posts from https://jsonplaceholder.typicode.com/posts (see documentation on https://jsonplaceholder.typicode.com/guide/)
@@ -7,7 +6,6 @@ function App() {
 
   return (
     <>
-      <NewPost />
       <BlogPosts />
     </>
   );
