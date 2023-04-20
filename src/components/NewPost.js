@@ -20,7 +20,7 @@ function NewPost(props) {
       props.updateList(newList)
       setIsSaved(false)
       setEnteredTitle("")
-    })
+    }).catch( e => console.log(e))
   }
 
   return (

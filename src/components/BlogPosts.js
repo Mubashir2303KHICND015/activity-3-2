@@ -22,7 +22,7 @@ function BlogPosts() {
   <NewPost updateList={updateList} posts ={posts} ></NewPost>
   <ul classes={classes.list}>
     {posts.map(post=>(<div>
-    <li key={post.title}>
+    <li key={post.id}>
       {post.title}
     </li>
   </div>))}</ul>
